@@ -16,7 +16,7 @@ Informal priorities for **fastmvc-cli** and how it surfaces the FastMVC stack. N
 
 ## Longer term
 
-- **Observability** — Surface logging / tracing hooks in generated apps (coordination with **fast-mvc** templates).
+- **Observability** — Surface logging / tracing hooks in generated apps (coordination with **fastx-mvc** templates).
 - **Testing** — Optional `fast test` or documented pytest patterns matching generated layout.
 
 Suggestions welcome via [GitHub Issues](https://github.com/fastmvc/fast.cli/issues) (use the repo URL from `pyproject.toml` if it differs).

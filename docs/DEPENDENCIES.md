@@ -4,11 +4,11 @@
 
 `fastmvc-cli` depends on the **FastMVC / FastAPI ecosystem** packages (see `pyproject.toml` `[project] dependencies`):
 
-- **fast-platform**, **fast-middleware**, **fast-database**, **fast-dashboards**, **fast-mvc** — application framework and tooling pulled in as libraries for codegen paths, imports, and optional integrations.
+- **fastx-platform**, **fastx-middleware**, **fastx-database**, **fastx-dashboards**, **fastx-mvc** — application framework and tooling pulled in as libraries for codegen paths, imports, and optional integrations.
 
 ### Version ranges
 
-- Versions are specified as **compatible lower bounds** (e.g. `fast-mvc>=1.4.0`) so patch/minor updates can flow to users via `pip install -U`.
+- Versions are specified as **compatible lower bounds** (e.g. `fastx-mvc>=1.4.0`) so patch/minor updates can flow to users via `pip install -U`.
 - **Pinning** exact versions is a **consumer choice**: use `pip-tools`, **uv** lockfiles, or `requirements.txt` with `==` in **your** application or deployment repo—not necessarily in this package’s `pyproject.toml`, which would block security patches for downstream users.
 
 ### Trust boundaries

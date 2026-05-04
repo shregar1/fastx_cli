@@ -8,7 +8,7 @@ fast quickstart --name my_api
 fast generate
 ```
 
-That output is the best “official” example: it matches the **fast-mvc** template the CLI copies from your environment.
+That output is the best “official” example: it matches the **fastx-mvc** template the CLI copies from your environment.
 
 ## Quick path
 
