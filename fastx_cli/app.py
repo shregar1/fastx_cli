@@ -59,7 +59,7 @@ from fastx_cli.commands.scaffold_cmd import register_scaffold
         "max_content_width": CLI_MAX_CONTENT_WIDTH,
     },
 )
-@click.version_option(version=__version__, prog_name="fast")
+@click.version_option(version=__version__, prog_name=CLI_PROG_NAME)
 def cli() -> None:
     r"""✨ FastX CLI — FastAPI project generator and tooling.
 

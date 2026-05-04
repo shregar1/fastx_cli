@@ -118,7 +118,7 @@ BCRYPT_SALT_PREFIX: str = "$2b$12$"
 DEFAULT_BCRYPT_SALT: str = "$2b$12$LQv3c1yqBWVHxkd0LHAkCO"
 
 # CLI
-CLI_PROG_NAME: str = "fast"
+CLI_PROG_NAME: str = "fastx"
 CLI_ENTRY_POINTS: tuple[str, ...] = ("fast", "fast-cli", "fastmvc")
 CLI_MAX_CONTENT_WIDTH: int = 92
 
